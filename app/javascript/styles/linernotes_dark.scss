@@ -1,16 +1,18 @@
 @import 'application';
 
 @import 'linernotes_dark/palette';
-@import 'mastodon_flat_css/mastodonFlat';
+@import 'mfc/mastodonFlat';
 @import 'linernotes_dark/overrides';
 
 @import 'mods/avatars_circle';
+@import 'mods/columns_floatingsearch';
 @import 'mods/columns_gettingstarted';
 @import 'mods/columns_wider';
 @import 'mods/displaynames_full';
 @import 'mods/displaynames_linebreak';
 @import 'mods/interactions_collapsed';
 @import 'mods/interactions_faded';
+@import 'mods/layout_1600px';
 @import 'mods/mediamodal_transparent';
 @import 'mods/misc_defaultfont';
 @import 'mods/misc_elefriend';

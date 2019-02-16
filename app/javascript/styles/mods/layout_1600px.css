@@ -1,0 +1,4 @@
+/* allow for wider layout on bigger screens */
+@media (min-width: 1600px) {
+    .landing-page .container {max-width: 1600px}
+}
