@@ -1,15 +1,3 @@
-/* define scss variables in palette.scss of subtheme */
-:root {
---bgPage: $bgPage;
---bg: $bg;
---bgHead: $bgHead;
---text: $text;
---textBold: $textBold;
---textMuted: $textMuted;
---textHead: $textHead;
---accent: $accent;
-}
-
 /*------------------------------------------------------------------------------
 * MISC TWEAKS
 *
@@ -21,7 +9,6 @@
 *
 * They are at the top of the style sheet for easy editing.
 ------------------------------------------------------------------------------*/
-
 
 /* allow for wider layout on bigger screens */
 @media (min-width: 1600px) {
