@@ -19,9 +19,9 @@ Another way to get some of these tweaks... | Help
 A distribution of Mastodon Flat CSS is available at https://userstyles.org/styles/153362 and contains many of these tweaks through the "Customize settings" menu. | ![image](https://i.imgur.com/5FpYwlQ.png)
 
 # Other info
- Preview | Description
+Prior work | Preview
 --- | ---
-![mfc preview](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/mfc.png) | This work is heavily based on (and an extension of) my earlier work on [Mastodon Flat CSS](https://github.com/trwnh/mastodon-flat-css), and its child theme [Linernotes Mastodon Themes](https://github.com/trwnh/linernotes_mastodon_themes). I grew tired of having to maintain what was essentially the same code in multiple different places, so this repo was created to be a more modular way of managing code snippets after I learned enough about how importing works.
+This work is heavily based on (and an extension of) my earlier work on [Mastodon Flat CSS](https://github.com/trwnh/mastodon-flat-css), and its child theme [Linernotes Mastodon Themes](https://github.com/trwnh/linernotes_mastodon_themes). I grew tired of having to maintain what was essentially the same code in multiple different places, so this repo was created to be a more modular way of managing code snippets after I learned enough about how importing works. | ![mfc preview](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/mfc.png)
 
 # Support
 [![mastodon](https://i.imgur.com/ahOT5QI.png)](https://mastodon.social/@trwnh) Contact/follow me: [mastodon.social/@trwnh](https://mastodon.social/@trwnh)
