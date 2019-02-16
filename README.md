@@ -1,8 +1,15 @@
 <p align="center"><img src="https://i.imgur.com/lfe9Emp.png" align="center"></p>
 
+# MastoMods
 This repo contains CSS tweaks and modifications for [Mastodon](https://joinmastodon.org), a libre micro-blogging social server whose default web frontend is similar to Tweetdeck. These mods can be used to create custom themes by admins for their Mastodon instances, or imported into userstyle extensions by users.
 
-# Instructions for admins
+Table of contents:
+[Instructions for admins](https://github.com/trwnh/mastomods#instructions-for-admins)
+[Instructions for users](https://github.com/trwnh/mastomods#instructions-for-users)
+[Other info](https://github.com/trwnh/mastomods#other-info)
+[Support](https://github.com/trwnh/mastomods#support)
+
+## Instructions for admins
 Download this repo and copy the files into your Mastodon deployment. If I can figure out the git commands to fetch the files without messing up your existing Mastodon deployment, I'll add them here.
 
 Let's use the Linernotes Dark theme as an example. Per [these olds docs](https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Customizing.md), to enable a new theme, you need to do the following:
@@ -61,15 +68,15 @@ linernotes_dark: styles/linernotes_dark.scss      | **new**
 
 4. **Compile theme assets and restart.** Run `RAILS_ENV=production bundle exec rails assets:precompile` and restart your Mastodon instance for the changes to take effect.
 
-# Instructions for users
+## Instructions for users
 
-**If your admin has installed a theme:**
+### If your admin has installed a theme:
 1. Go to your instance's Settings/Preferences.
 2. Scroll down to the "Web" section.
 3. Click the "Site theme" dropdown and select your desired theme.
 4. Save changes, and start using the Mastodon webapp with your newly selected theme!
 
-**If your admin has not installed a theme:**
+### If your admin has not installed a theme:
 
 Copy and paste desired CSS tweaks into your user-style manager. If you don't have one, use Stylus:
 
@@ -92,13 +99,13 @@ The base MFC userstyle can be found at `app/javascript/styles/mfc/mastodonFlat.c
 5. Copy and paste any desired mods into your new userstyle.
 6. Name your userstyle, then click "Save" and close the popup window.
 
-# Other info
+## Other info
 Prior work | Preview
 --- | ---
 This work is heavily based on (and an extension of) my earlier work on [Mastodon Flat CSS](https://github.com/trwnh/mastodon-flat-css), and its child theme [Linernotes Mastodon Themes](https://github.com/trwnh/linernotes_mastodon_themes). I grew tired of having to maintain what was essentially the same code in multiple different places, so this repo was created to be a more modular way of managing code snippets after I learned enough about how importing works. | ![mfc preview](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/mfc.png)
 linernotes_dark is an admin-installable theme that was commissioned for linernotes.club. Because the base MFC theme is adaptable, it is not too difficult to build your own theme on top of it. See the source code for comments and documentation. | ![linernotes preview](https://raw.githubusercontent.com/trwnh/mastomods/master/.PREVIEWS/linernotes_dark.png) 
 
-# Support
+## Support
 [![mastodon](https://i.imgur.com/ahOT5QI.png)](https://mastodon.social/@trwnh) Contact/follow me: [mastodon.social/@trwnh](https://mastodon.social/@trwnh)
 
 [![email](https://cdn0.iconfinder.com/data/icons/woocons1/Mail.png)](mailto:a@trwnh.com) Email/XMPP: a@trwnh.com
