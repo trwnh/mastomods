@@ -7,7 +7,7 @@ Download this repo and copy the files into your Mastodon deployment at `app/java
 # Instructions for users
 Copy and paste desired CSS tweaks into your user-style manager. If you don't have one, use Stylus:
 
-[![stylus icon](https://addons.cdn.mozilla.net/user-media/addon_icons/814/814814-64.pnghttps://add0n.com/stylus.html)]()
+[![stylus icon](https://addons.cdn.mozilla.net/user-media/addon_icons/814/814814-64.png)](https://add0n.com/stylus.html)
 [![firefox](https://static.filehorse.com/icons-mac/browsers-and-plugins/firefox-icon-32.png)](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 [![opera](https://static.filehorse.com/icons-mac/browsers-and-plugins/opera-icon-32.png)](https://addons.opera.com/en/extensions/details/stylus/)
 [![chrome](https://static.filehorse.com/icons/browsers-and-plugins/google-chrome-icon-32.png)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
