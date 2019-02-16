@@ -4,10 +4,12 @@
 This repo contains CSS tweaks and modifications for [Mastodon](https://joinmastodon.org), a libre micro-blogging social server whose default web frontend is similar to Tweetdeck. These mods can be used to create custom themes by admins for their Mastodon instances, or imported into userstyle extensions by users.
 
 Table of contents:
-[Instructions for admins](https://github.com/trwnh/mastomods#instructions-for-admins)
-[Instructions for users](https://github.com/trwnh/mastomods#instructions-for-users)
-[Other info](https://github.com/trwnh/mastomods#other-info)
-[Support](https://github.com/trwnh/mastomods#support)
+- [Instructions for admins](https://github.com/trwnh/mastomods#instructions-for-admins)
+- [Instructions for users](https://github.com/trwnh/mastomods#instructions-for-users)
+  - [If your admin has installed a theme](https://github.com/trwnh/mastomods#if-your-admin-has-installed-a-theme)
+  - [If your admin has not installed a theme](https://github.com/trwnh/mastomods#if-your-admin-has-not-installed-a-theme)
+- [Other info](https://github.com/trwnh/mastomods#other-info)
+- [Support](https://github.com/trwnh/mastomods#support)
 
 ## Instructions for admins
 Download this repo and copy the files into your Mastodon deployment. If I can figure out the git commands to fetch the files without messing up your existing Mastodon deployment, I'll add them here.
