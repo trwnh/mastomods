@@ -1,4 +1,4 @@
-<div style="text-align: center"><img src="https://i.imgur.com/lfe9Emp.png"></div>
+<img src="https://i.imgur.com/lfe9Emp.png" align="center">
 
 # About this repo
 This repo contains CSS tweaks and modifications for [Mastodon](https://joinmastodon.org), a libre micro-blogging social server whose default web frontend is similar to Tweetdeck. These mods can be used to create custom themes by admins for their Mastodon instances, or imported into userstyle extensions by users.
