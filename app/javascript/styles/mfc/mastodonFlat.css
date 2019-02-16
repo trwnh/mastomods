@@ -752,7 +752,6 @@ deal with borders
 
 /*
 * Fix glowing elements when there are new toots to be fetched
-* - this is technically a fix, but it hasn't been fully fixed.
 * //todo: try to find a way to make this look good against bgHead
 */
 .column-header.active .column-header__icon {
