@@ -22,6 +22,7 @@ A distribution of Mastodon Flat CSS is available at https://userstyles.org/style
 Prior work | Preview
 --- | ---
 This work is heavily based on (and an extension of) my earlier work on [Mastodon Flat CSS](https://github.com/trwnh/mastodon-flat-css), and its child theme [Linernotes Mastodon Themes](https://github.com/trwnh/linernotes_mastodon_themes). I grew tired of having to maintain what was essentially the same code in multiple different places, so this repo was created to be a more modular way of managing code snippets after I learned enough about how importing works. | ![mfc preview](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/mfc.png)
+linernotes_dark is an admin-installable theme that was commissioned for linernotes.club. Because the base MFC theme is adaptable, it is not too difficult to build your own theme on top of it. See the source code for comments and documentation. | ![linernotes preview](https://raw.githubusercontent.com/trwnh/mastomods/master/.PREVIEWS/linernotes_dark.png) 
 
 # Support
 [![mastodon](https://i.imgur.com/ahOT5QI.png)](https://mastodon.social/@trwnh) Contact/follow me: [mastodon.social/@trwnh](https://mastodon.social/@trwnh)
