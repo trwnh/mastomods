@@ -17,9 +17,10 @@ Copy and paste desired CSS tweaks into your user-style manager. If you don't hav
 This work is heavily based on (and an extension of) my earlier work on [Mastodon Flat CSS](https://github.com/trwnh/mastodon-flat-css), and its child theme [Linernotes Mastodon Themes](https://github.com/trwnh/linernotes_mastodon_themes). I grew tired of having to maintain what was essentially the same code in multiple different places, so this repo was created to be a more modular way of managing code snippets after I learned enough about how importing works.
 
 # Contact
-- Contact/follow me: [mastodon.social/@trwnh](https://mastodon.social/@trwnh)
-- Message me via XMPP/email: a@trwnh.com
-- Tip me: One-time via [paypal.me/trwnh](https://paypal.me/trwnh) or recurring via [liberapay.com/trwnh](https://liberapay.com/trwnh)
+- Contact/follow me: [mastodon.social/@trwnh](https://mastodon.social/@trwnh) [![mastodon](https://i.imgur.com/ahOT5QI.png)](https://mastodon.social/@trwnh)
+- Message me via XMPP/email: a@trwnh.com [![email](https://cdn0.iconfinder.com/data/icons/woocons1/Mail.png)](mailto:a@trwnh.com)
+[![xmpp online status](http://trwnh.com:5280/status_alt/a)](xmpp:a@trwnh.com)
+- Tip me: One-time via [![paypal](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGOZY1FoaRFdYzeDvRKK3aFHmPnFYMmgd8K3UuZhab-exTZfCc4g)](https://paypal.me/trwnh) [paypal.me/trwnh](https://paypal.me/trwnh) or recurring via [![liberapay](https://i.imgur.com/B8RZn2y.png)](https://liberapay.com/trwnh) [liberapay.com/trwnh](https://liberapay.com/trwnh)
 
 [![mastodon](https://i.imgur.com/ahOT5QI.png)](https://mastodon.social/@trwnh)
 [![email](https://cdn0.iconfinder.com/data/icons/woocons1/Mail.png)](mailto:a@trwnh.com)
