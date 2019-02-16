@@ -1,0 +1,4 @@
+/* wider columns */
+@media (min-width: 640px) {
+    .column, #mastodon-timeline {min-width: 60ch;}
+}

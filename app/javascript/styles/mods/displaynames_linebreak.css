@@ -1,0 +1,5 @@
+/*
+* Add a line break between display name and account handle:
+* - this allows user/display names to expand more.
+*/
+.display-name__html {display: block;}

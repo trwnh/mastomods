@@ -1,0 +1,10 @@
+/*
+* Make "getting started" column height consistent with all other columns:
+* - puts the footer back at the bottom of the page, instead of floating.
+*/
+.getting-started {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between
+}

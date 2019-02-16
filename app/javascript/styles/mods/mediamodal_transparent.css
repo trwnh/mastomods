@@ -1,0 +1,7 @@
+/*
+* Remove the checker-board background from the media modal:
+* - this makes transparent images actually transparent
+*/
+.media-modal canvas,
+.media-modal img
+{background: none}

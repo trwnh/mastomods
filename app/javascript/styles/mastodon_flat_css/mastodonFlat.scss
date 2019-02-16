@@ -22,10 +22,7 @@
 * They are at the top of the style sheet for easy editing.
 ------------------------------------------------------------------------------*/
 
-/* wider columns */
-@media (min-width: 640px) {
-    .column, #mastodon-timeline {min-width: 60ch;}
-}
+
 /* allow for wider layout on bigger screens */
 @media (min-width: 1600px) {
     .landing-page .container {max-width: 1600px}
@@ -44,14 +41,7 @@
     .tabs-bar {background: var(--bgHead) !important; color: var(--textHead) !important}
 }
 
-/* custom font */
-body,
-.landing-page #mastodon-timeline,
-.landing-page li,
-.landing-page p
-{
-    font-family: sans-serif
-}
+
 
 /* visible focus indicator */
 .focusable:focus
@@ -737,110 +727,13 @@ deal with borders
 * They may also be extensions, but not "miscellaneous" enough.
 ------------------------------------------------------------------------------*/
 
-/*
-* Add a line break between display name and account handle:
-* - this allows user/display names to expand more.
-*/
-.display-name__html {display: block;}
 
-/*
-* Always show full name and handle:
-* - this removes the `...` and allows text to overflow past the column.
-* - this can look worse, but it can also prevent having to mouse over
-*   to see the full name or handle.
-*/
-.display-name {overflow: visible; white-space: normal;}
 
-/*
-* Rounded avatars:
-* - adjust the border radius around all avatar elements.
-* - default override is 50% (i.e. turn squares into circles),
-*   but you can set it to whatever you want.
-*/
-.card .avatar img,
-.activity-stream .status.light .status__avatar img,
-.account__avatar,
-    .account__avatar-overlay-base,
-    .account__avatar-overlay-overlay
-{border-radius: 50%}
 
-/*
-* Fade out faved/boosted toots in notifications:
-* - for "x favourited your toot" / "x boosted your toot",
-* - make the faved/boosted toot half-transparent.
-*/
-.status.muted {opacity: 0.5}
 
-/*
-* Collapse fave/boost notifications
-* - limits display to just a few lines (~3), so you can at least identify it
-* - hides the display name, because you already know you posted it
-* - tighter margins, remove space between CW and content
-* - hides the buttons, but you can expand a status to interact with it
-*/
 
-.notification-favourite .status,
-.notification-reblog .status {
-    max-height: 4em;
-    overflow: hidden;
-}
 
-.notification-favourite .display-name,
-.notification-reblog .display-name {
-    display: none;
-}
 
-.notification-favourite .status__content,
-.notification-reblog .status__content {
-    margin-top: -4px;
-}
-
-.notification-favourite .status__content p,
-.notification-reblog .status__content p {
-    margin-bottom: 0px;
-}
-
-.notification-favourite .status__action-bar,
-.notification-reblog .status__action-bar {
-    display: none;
-}
-
-/*
-* Release elephant friend from their confines:
-* - elephant friend will now hang out in the corner of your browser,
-*   instead of being trapped in the drawer.
-*/
-.drawer__inner, .drawer__inner__mastodon {
-    background: none; z-index: 0
-}
-.drawer__inner__mastodon > img {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 180px;
-    z-index: -1
-}
-.compose-form {z-index: 1}
-.drawer__inner {height: 100%} /* firefox bug highlights drawer text on click */
-
-/*
-* Make "getting started" column height consistent with all other columns:
-* - puts the footer back at the bottom of the page, instead of floating.
-*/
-.getting-started {
-    height: 100%;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between
-}
-
-/*
-* Remove the checker-board background from the media modal:
-* - this makes transparent images actually transparent
-*/
-.media-modal canvas,
-.media-modal img
-{background: none}
 
 /*
 * Fix glowing elements when there are new toots to be fetched

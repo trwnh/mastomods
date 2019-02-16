@@ -1,0 +1,33 @@
+/*
+* Collapse fave/boost notifications
+* - limits display to just a few lines (~3), so you can at least identify it
+* - hides the display name, because you already know you posted it
+* - tighter margins, remove space between CW and content
+* - hides the buttons, but you can expand a status to interact with it
+*/
+
+.notification-favourite .status,
+.notification-reblog .status {
+    max-height: 4em;
+    overflow: hidden;
+}
+
+.notification-favourite .display-name,
+.notification-reblog .display-name {
+    display: none;
+}
+
+.notification-favourite .status__content,
+.notification-reblog .status__content {
+    margin-top: -4px;
+}
+
+.notification-favourite .status__content p,
+.notification-reblog .status__content p {
+    margin-bottom: 0px;
+}
+
+.notification-favourite .status__action-bar,
+.notification-reblog .status__action-bar {
+    display: none;
+}
