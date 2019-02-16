@@ -59,7 +59,18 @@ linernotes_dark: styles/linernotes_dark.scss      | **new**
     linernotes_dark: Linernotes Dark              | **new**
 ```
 
+4. **Compile theme assets and restart.** Run `RAILS_ENV=production bundle exec rails assets:precompile` and restart your Mastodon instance for the changes to take effect.
+
 # Instructions for users
+
+**If your admin has installed a theme:**
+1. Go to your instance's Settings/Preferences.
+2. Scroll down to the "Web" section.
+3. Click the "Site theme" dropdown and select your desired theme.
+4. Save changes, and start using the Mastodon webapp with your newly selected theme!
+
+**If your admin has not installed a theme:**
+
 Copy and paste desired CSS tweaks into your user-style manager. If you don't have one, use Stylus:
 
 [![stylus icon](https://addons.cdn.mozilla.net/user-media/addon_icons/814/814814-64.png)](https://add0n.com/stylus.html)
@@ -71,6 +82,15 @@ Copy and paste desired CSS tweaks into your user-style manager. If you don't hav
 Another way to get some of these tweaks... | Help
 --- | ---
 A distribution of Mastodon Flat CSS is available at https://userstyles.org/styles/153362 and contains many of these tweaks through the "Customize settings" menu. | ![image](https://i.imgur.com/5FpYwlQ.png)
+
+The base MFC userstyle can be found at `app/javascript/styles/mfc/mastodonFlat.css`. You can load a theme into Stylus like so:
+
+1. Navigate to your Mastodon instance.
+2. Click the Stylus extension's icon in your browser and find the section that says "Write style for:"
+3. Hover over the website's domain name (e.g. `mastodon.social`) and click just that part, in order to write a new style that will be applied to the entire website.
+4. Copy and paste the contents of `mastodonFlat.css` into your new userstyle.
+5. Copy and paste any desired mods into your new userstyle.
+6. Name your userstyle, then click "Save" and close the popup window.
 
 # Other info
 Prior work | Preview
