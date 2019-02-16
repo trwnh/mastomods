@@ -14,6 +14,7 @@ Copy and paste desired CSS tweaks into your user-style manager. If you don't hav
 [![source code](https://github.githubassets.com/favicon.ico)](https://github.com/openstyles/stylus/)
 
 A distribution of Mastodon Flat CSS is available at https://userstyles.org/styles/153362 and contains many of these tweaks through the "Customize settings" menu:
+
 ![image](https://i.imgur.com/gXupZ8m.png)
 
 # Other info
