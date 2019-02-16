@@ -1,0 +1,26 @@
+/*
+* From https://userstyles.org/styles/158971
+* CC0 Public Domain by Kerynean
+*/
+
+@media (min-width: 1024px) {
+  .tabs-bar {
+    display: flex;
+    width: 785px;
+    margin-left: calc(25% + 155px);
+    z-index: 1;
+  }
+
+  .columns-area {
+    width: calc(50% + 300px);
+    margin: -60px auto auto;
+  }
+
+  .column {display: none;}
+
+  .column:last-child {
+    display: flex;
+    min-width: 800px;
+    margin-top: 55px;
+  }
+}
