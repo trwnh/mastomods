@@ -1,5 +1,5 @@
 # About this repo
-This repo contains CSS tweaks and custom themes for [Mastodon](https://joinmastodon.org), a libre micro-blogging social server whose default web frontend is similar to Tweetdeck. 
+This repo contains CSS tweaks and modifications for [Mastodon](https://joinmastodon.org), a libre micro-blogging social server whose default web frontend is similar to Tweetdeck. These mods can be used to create custom themes by admins for their Mastodon instances, or imported into userstyle extensions by users.
 
 # Instructions for admins
 Download this repo and copy the files into your Mastodon deployment at `app/javascript/styles`. If I can figure out the git commands to fetch the files without messing up your existing Mastodon deployment, I'll add them here.
