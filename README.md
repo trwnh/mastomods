@@ -1,4 +1,3 @@
-# mastomods/styles
 CSS tweaks and custom themes for [Mastodon](https://joinmastodon.org), a libre micro-blogging social server whose default web frontend is similar to Tweetdeck. 
 
 # Instructions for admins
