@@ -23,6 +23,6 @@ This work is heavily based on (and an extension of) my earlier work on [Mastodon
 
 [![mastodon](https://i.imgur.com/ahOT5QI.png)](https://mastodon.social/@trwnh)
 [![email](https://cdn0.iconfinder.com/data/icons/woocons1/Mail.png)](mailto:a@trwnh.com)
-![xmpp online status](http://trwnh.com:5280/status/a)![test](http://trwnh.com:5280/status/a/text)
+![xmpp online status](http://trwnh.com:5280/status/a)
 [![paypal](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGOZY1FoaRFdYzeDvRKK3aFHmPnFYMmgd8K3UuZhab-exTZfCc4g)](https://paypal.me/trwnh)
 [![liberapay](https://i.imgur.com/B8RZn2y.png)](https://liberapay.com/trwnh)
