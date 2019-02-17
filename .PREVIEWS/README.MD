@@ -10,6 +10,6 @@ Midnight Blue | Clean Slate | Droid | Flamingo
 
 ### Liner Notes Club
 
-Linernotes Dark
----
-![linernotes_dark](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/linernotes_dark.png)
+Linernotes Dark | Linernotes Light
+--- | ---
+![linernotes_dark](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/linernotes_dark.png) | Coming soon?
