@@ -9,6 +9,7 @@ Table of contents
     - [Flamingo](#flamingo)
   - [linernotes.club](#linernotesclub)
     - [Linernotes Dark](#linernotes-dark)
+- [Tweaks](#tweaks)
 
 # Themes
 
@@ -27,3 +28,5 @@ Table of contents
 
 ### Linernotes Dark
 ![linernotes_dark](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/linernotes_dark.png)
+
+# Tweaks
