@@ -16,4 +16,4 @@
 ### Linernotes.Club
 
 #### Linernotes Dark
-![linernotes_dark](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/linernotes_dark.png) | Coming soon?
+![linernotes_dark](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/linernotes_dark.png)
