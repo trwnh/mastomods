@@ -1,3 +1,15 @@
+Table of contents
+---
+
+- https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#themes
+  - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#mastodon-flat
+    - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#midnight-blue
+    - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#clean-slate
+    - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#droid
+    - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#flamingo
+  - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#linernotesclub
+    - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#linernotes-dark
+
 # Themes
 
 ## Mastodon Flat
