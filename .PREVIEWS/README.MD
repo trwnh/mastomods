@@ -4,13 +4,16 @@
 
 ### Mastodon Flat
 
-Midnight Blue | Clean Slate
---- | ---
-![midnightblue](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-midnightBlue.png) | ![cleanslate](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-cleanSlate.png)
-![droid](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-droid.png) | ![flamingo](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-flamingo.png)
+#### Midnight Blue
+![midnightblue](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-midnightBlue.png)
+#### Clean Slate
+![cleanslate](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-cleanSlate.png)
+#### Droid
+![droid](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-droid.png)
+#### Flamingo
+![flamingo](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-flamingo.png)
 
-### Liner Notes Club
+### Linernotes.Club
 
-Linernotes Dark | Linernotes Light
---- | ---
+#### Linernotes Dark
 ![linernotes_dark](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/linernotes_dark.png) | Coming soon?
