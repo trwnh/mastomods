@@ -1,19 +1,17 @@
-# Previews
+# Themes
 
-## Themes
+## Mastodon Flat
 
-### Mastodon Flat
-
-#### Midnight Blue
+### Midnight Blue
 ![midnightblue](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-midnightBlue.png)
-#### Clean Slate
+### Clean Slate
 ![cleanslate](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-cleanSlate.png)
-#### Droid
+### Droid
 ![droid](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-droid.png)
-#### Flamingo
+### Flamingo
 ![flamingo](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-flamingo.png)
 
-### Linernotes.Club
+## linernotes.club
 
-#### Linernotes Dark
+### Linernotes Dark
 ![linernotes_dark](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/linernotes_dark.png)
