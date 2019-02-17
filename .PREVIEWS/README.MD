@@ -4,9 +4,12 @@
 
 ### Mastodon Flat
 
-Midnight Blue | Clean Slate | Droid | Flamingo
---- | --- | --- | ---
-![midnightblue](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-midnightBlue.png) | ![cleanslate](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-cleanSlate.png) | ![droid](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-droid.png) | ![flamingo](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-flamingo.png)
+Midnight Blue | Clean Slate
+--- | ---
+![midnightblue](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-midnightBlue.png) | ![cleanslate](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-cleanSlate.png)
+Droid | Flamingo
+--- | ---
+![droid](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-droid.png) | ![flamingo](https://github.com/trwnh/mastomods/blob/master/.PREVIEWS/mfc-flamingo.png)
 
 ### Liner Notes Club
 
