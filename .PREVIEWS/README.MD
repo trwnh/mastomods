@@ -1,7 +1,7 @@
 Table of contents
 ---
 
-- (#themes)
+- [themes](#themes)
   - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#mastodon-flat
     - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#midnight-blue
     - https://github.com/trwnh/mastomods/tree/master/.PREVIEWS#clean-slate
