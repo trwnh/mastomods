@@ -1,0 +1,22 @@
+/* move tab bar to bottom on mobile */
+@media (max-width: 630px) {
+
+.tabs-bar {
+position: absolute;
+bottom: 0;
+z-index: 1;
+width: 100%;
+margin: 0;
+}
+  .columns-area {padding: 0}
+  .getting-started {overflow: auto}
+
+  .react-swipeable-view-container .columns-area {height: 100% !important}
+  
+  .getting-started__trends, .getting-started__wrapper, .search {margin: 0}
+  
+.react-swipeable-view-container
+{height: calc(100% - 50px)}
+.floating-action-button {margin-bottom: 50px}
+
+}

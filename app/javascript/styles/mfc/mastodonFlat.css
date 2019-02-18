@@ -23,8 +23,6 @@
     .tabs-bar {background: var(--bgHead) !important; color: var(--textHead) !important}
 }
 
-
-
 /* visible focus indicator */
 .focusable:focus
 {border: 2px solid var(--accent) !important;}
