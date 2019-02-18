@@ -4,15 +4,16 @@
 @import 'mfc/mastodonFlat';
 @import 'linernotes_dark/overrides';
 
-@import 'mods/avatars_circle';
-@import 'mods/columns_floatingsearch';
-@import 'mods/columns_gettingstarted';
-@import 'mods/columns_wider';
-@import 'mods/displaynames_full';
-@import 'mods/displaynames_linebreak';
-@import 'mods/interactions_collapsed';
-@import 'mods/interactions_faded';
+@import 'mods/display_breakname';
+@import 'mods/display_fullname';
+@import 'mods/display_browserfont';
+@import 'mods/display_circleavatar';
+@import 'mods/display_collapsedinteractions';
+@import 'mods/display_fadedinteractions';
+@import 'mods/display_transparentmedia';
 @import 'mods/layout_1600px';
-@import 'mods/mediamodal_transparent';
-@import 'mods/misc_defaultfont';
-@import 'mods/misc_elefriend';
+@import 'mods/layout_elefriend';
+@import 'mods/layout_gettingstarted';
+@import 'mods/layout_searchheight';
+@import 'mods/layout_widercolumns';
+@import 'mods/layout_mobile_bottombar';
