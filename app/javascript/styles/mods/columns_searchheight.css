@@ -1,0 +1,10 @@
+/*
+Make search results look better:
+- adds contrast to search icon
+- results only take as much space as needed
+
+author: trwnh
+license: Public Domain
+*/
+.search__icon .fa.active {opacity: 1}
+.drawer__inner {height: auto;}

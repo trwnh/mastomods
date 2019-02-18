@@ -1,6 +1,9 @@
 /*
-* Remove the checker-board background from the media modal:
-* - this makes transparent images actually transparent
+Remove the checker-board background from the media modal:
+- this makes transparent images actually transparent
+
+author: trwnh
+license: Public Domain
 */
 .media-modal canvas,
 .media-modal img

@@ -1,0 +1,14 @@
+/*
+Turn stars into hearts:
+- similar to twitter's change
+
+author: numimyon
+license: CC0 - Public Domain
+source: https://userstyles.org/styles/151233
+*/
+
+.notification__favourite-icon-wrapper .star-icon,
+.star-icon.active
+{color: crimson;}
+
+.fa-star:before {content: "❤";}

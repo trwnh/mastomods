@@ -1,26 +1,25 @@
 /*
-* From https://userstyles.org/styles/158971
-* CC0 Public Domain by Kerynean
+Single column layout:
+- re-uses tab bar from mobile layout
+- hides search from drawer (redundant with search tab)
+
+author: trwnh
+license: Public Domain
 */
 
 @media (min-width: 1024px) {
-  .tabs-bar {
-    display: flex;
-    width: 785px;
-    margin-left: calc(25% + 155px);
-    z-index: 1;
-  }
-
-  .columns-area {
-    width: calc(50% + 300px);
-    margin: -60px auto auto;
-  }
-
-  .column {display: none;}
-
-  .column:last-child {
-    display: flex;
-    min-width: 800px;
-    margin-top: 55px;
-  }
+  /* place constraints on app layout */
+  .ui {max-width: 960px; max-height: 100vh;}
+  .drawer {width: 300px}
+  .column:last-child, .drawer:last-child
+  {display: flex; flex: 1 1 100%;}
+  /* show tabs bar (from mobile layout) as header */
+  .tabs-bar {display: flex;}
+  /* hide redundant ui elements */
+  .column,
+  .drawer__header,
+  .drawer:first-child .search,
+  .drawer:first-child .search-results
+  {display: none;}
+  .drawer:first-child .drawer__inner.darker {z-index: -1}
 }

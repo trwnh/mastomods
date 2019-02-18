@@ -1,8 +1,0 @@
-/* override mastodon-font-sans-serif with sans-serif */
-body,
-.landing-page #mastodon-timeline,
-.landing-page li,
-.landing-page p
-{
-    font-family: sans-serif
-}
