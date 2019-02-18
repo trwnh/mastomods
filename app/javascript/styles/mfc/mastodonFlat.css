@@ -1,40 +1,4 @@
 /*------------------------------------------------------------------------------
-* MISC TWEAKS
-*
-* Miscellaneous tweaks that are more like extensions of the theme,
-* rather than subsets or features. These could ostensibly be their
-* own user-styles, and are only bundled in here for convenience.
-* Or, they are not supported in all browsers. They may be removed
-* without significantly affecting or compromising the theme.
-*
-* They are at the top of the style sheet for easy editing.
-------------------------------------------------------------------------------*/
-
-/* move tab bar to bottom on mobile */
-@media (max-width: 640px) {
-    .tabs-bar {
-        position: absolute;
-        bottom: 0;
-        z-index: 1;
-        width: 100%;
-    }
-    .react-swipeable-view-container {height: calc(100% - 50px)}
-    .floating-action-button {margin-bottom: 50px}
-    .tabs-bar {background: var(--bgHead) !important; color: var(--textHead) !important}
-}
-
-/* visible focus indicator */
-.focusable:focus
-{border: 2px solid var(--accent) !important;}
-
-/* webkit scrollbars //todo: firefox equivalent */
-::-webkit-scrollbar-track {background: rgba(0,0,0,0.4)}
-::-webkit-scrollbar-thumb {background: rgba(255,255,255,0.4)}
-
-/* recolor scrollbars in firefox */
-.scrollable, .report-modal__statuses {scrollbar-color: var(--bg) var(--bgPage);}
-
-/*------------------------------------------------------------------------------
 * DEFINE COLOR PALETTE
 *
 * Choose the CSS Variables that will be applied to recolor elements.
@@ -75,15 +39,90 @@
 *     It is now possible to use a dark bgPage and light bg, or vice-versa.
 ------------------------------------------------------------------------------*/
 
+/* copy and paste the desired palette at the end of this section,
+* or you can delete the ones you don't want, or comment them out.
+*/
+
+/*  
+* Testing palette:
+* light grey columns, slate grey background, turquoise headers, orange accents.
+* (a bit garish, but sufficiently "different" to catch any unthemed elements.)
+*/
 :root {
---bgPage: $bgPage;
---bg: $bg;
---bgHead: $bgHead;
---text: $text;
---textBold: $textBold;
---textMuted: $textMuted;
---textHead: $textHead;
---accent: $accent;
+--bg: #d9e1e8;
+--text: #234;
+--textBold: #000000;
+--textMuted: #579;
+
+--bgPage: #345;
+--textPage: #ddd;
+--textPageBold: #fff;
+--textPageMuted: #aaa;
+
+--bgHead: darkturquoise;
+--textHead: #345;
+--accent: #ff3e00;
+--accentText: var(--textPageBold);
+}
+
+/* Clean Slate:
+* white columns on a light-grey page, with dark grey headers and blue accent.
+*/
+:root {
+--bg: #fff;
+--text: #123;
+--textBold: #000;
+--textMuted: #666;
+
+--bgPage: #ddd;
+--textPage: var(--text);
+--textPageBold: var(--textBold);
+--textPageMuted: var(--textMuted);
+
+--bgHead: #333;
+--textHead: #fff;
+--accent: #09f;
+--accentText: var(--textHead);
+}
+
+/* Droid/Flamingo:
+* dark neutral-grey page, with either Android Green or Flamingo accent.
+*/
+:root {
+--bg: #222;
+--text: #ddd;
+--textBold: #fff;
+--textMuted: #777;
+
+--bgPage: #111;
+--textPage: var(--text);
+--textPageBold: var(--textBold);
+--textPageMuted: var(--textMuted);
+
+--bgHead: #333;
+--textHead: var(--textBold);
+--accent: #a4c639;  /* flamingo: #f09 */
+--accentText: var(--textHead);
+}
+
+/* Midnight Blue:
+* a dark blue palette based loosely on Twitter's night mode.
+*/
+:root {
+--bg: #123;
+--text: #d0d8e0;
+--textBold: #fff;
+--textMuted: #808890;
+
+--bgPage: #051119;
+--textPage: var(--text);
+--textPageBold: var(--textBold);
+--textPageMuted: var(--textMuted);
+
+--bgHead: #357;
+--textHead: var(--textBold);
+--accent: #09f;
+--accentText: var(--textBold);
 }
 
 /*------------------------------------------------------------------------------
@@ -597,6 +636,17 @@ accented links
 * This section contains any overrides that are mostly necessary to beautify or
 * otherwise make elements look like they belong in the new palette.
 *------------------------------------------------------------------------------/
+
+/* visible focus indicator */
+.focusable:focus
+{border: 2px solid var(--accent) !important;}
+
+/* webkit scrollbars //todo: firefox equivalent */
+::-webkit-scrollbar-track {background: rgba(0,0,0,0.4)}
+::-webkit-scrollbar-thumb {background: rgba(255,255,255,0.4)}
+
+/* recolor scrollbars in firefox */
+.scrollable, .report-modal__statuses {scrollbar-color: var(--bg) var(--bgPage);}
 
 /* transparent drawer / gs columns */
 .getting-started,
