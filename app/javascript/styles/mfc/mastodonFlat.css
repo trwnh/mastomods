@@ -702,12 +702,6 @@ accented links
 public page fixes
 ---------------*/
 
-/* colorize logo */
-.landing-page__logo img {
-    filter: sepia(100%) hue-rotate(160deg) saturate(400%) brightness(40%);
-    mix-blend-mode: normal
-}
-
 /* add shadow to help with visibility on light bg */
 .brand img {filter: drop-shadow(1px 1px 1px black)}
 

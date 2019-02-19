@@ -16,7 +16,9 @@ This work is heavily based on (and an extension of) my earlier work on [Mastodon
 linernotes_dark is an admin-installable theme that was commissioned for linernotes.club. Because the base MFC theme is adaptable, it is not too difficult to build your own theme on top of it. See the source code for comments and documentation. | ![linernotes preview](https://raw.githubusercontent.com/trwnh/mastomods/master/.PREVIEWS/linernotes_dark.png) 
 
 ## Instructions for admins
-Download this repo and copy the files into your Mastodon deployment. If I can figure out the git commands to fetch the files without messing up your existing Mastodon deployment, I'll add them here.
+Download this repo and copy the files into your Mastodon deployment. If I can figure out the git commands to fetch the files without messing up your existing Mastodon deployment, I'll add them here. For now, I recommend cloning this repo and copying over the files that you want/need, and pulling in updates as necessary.
+
+### To use a pre-made theme:
 
 Let's use the Linernotes Dark theme as an example. Per [these olds docs](https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Customizing.md), to enable a new theme, you need to do the following:
 
@@ -73,6 +75,21 @@ linernotes_dark: styles/linernotes_dark.scss      | **new**
 ```
 
 4. **Compile theme assets and restart.** Run `RAILS_ENV=production bundle exec rails assets:precompile` and restart your Mastodon instance for the changes to take effect.
+
+### To make your own theme:
+
+1. **Fetch the base files.** You will need, at minimum, the contents of the `.../mfc/` folder. It is also recommended to fetch the `.../mods/` folder, as it contains many useful additions to any theme. 
+
+2. **Define your chosen palette.scss.** See `.../linernotes_dark/palette.scss` for commented instructions on how to choose and define your palette's colors. I recommend putting this in a subfolder with your `themeName` for organizational purposes (e.g. `.../themeName/palette.scss`), but you can also define this in Step 3 if you don't want multiple palette files and theme folders to be littered all over.
+
+3. **Create a themeName.scss file.** You can copy `linernotes_dark.scss as a starting point, as it follows the general structure of a theme file. In general, you need to import in the following order:
+
+- `application`: this contains the base styling of the mastodon webapp, before any modifications.
+- `themeName/palette`: this contains the Sass variables that need to be defined before the MFC rules can be applied. You can also copy the entirety of palette.scss from Step 2 and insert it at this position if you want less of a mess in file creation, at the expense of a messier themeName.scss.
+- `mfc/mastodonFlat`: this contains the MFC recolorings for foreground, background, and highlight elements.
+- `mfc/variables`: this uses the Sass variables you defined earlier and converts them to CSS variables so that `mastodonFlat` can be applied.
+- `themeName/overrides` (optional): if you have any custom overrides you'd like to make, such as custom backgrounds or replacing assets, it's a good idea to load them via this file.
+- `mods/*` (optional but recommended): import your desired mods. Refer to the `.../mods/` folder for a list of available mods.
 
 ## Instructions for users
 
