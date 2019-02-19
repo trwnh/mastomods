@@ -40,11 +40,20 @@
 ------------------------------------------------------------------------------*/
 
 /* linernotes dark */
-$bgPage: rgb(42,38,37);
-$bg: rgb(26,21,21);
-$bgHead: rgb(255,122,23);
-$text: rgb(225,225,225);
-$textBold: #fff;
-$textMuted: rgb(153,157,156);
-$textHead: $textBold;
-$accent: rgb(3, 180, 0);
+
+:root {
+--bg: rgb(26,21,21);
+--text: rgb(225,225,225);
+--textBold: rgb(255,255,255);
+--textMuted: rgb(153,157,156);
+
+--bgPage: rgb(42,38,37);
+--textPage: var(--text);
+--textPageBold: var(--textBold);
+--textPageMuted: var(--textMuted);
+
+--bgHead: rgb(255,122,23);
+--textHead: var(--textBold);
+--accent: rgb(3, 180, 0);
+--accentText: var(--textBold);
+}
