@@ -1,7 +1,7 @@
 /*
-Collapse fave/boost notifications
+Collapse fave/boost/poll notifications
 - limits display to just a few lines (~3), so you can at least identify it
-- hides the display name, because you already know you posted it
+- hides the display name on fave/boost, because you already know you posted it
 - tighter margins, remove space between CW and content
 - hides the buttons, but you can expand a status to interact with it
 
@@ -10,7 +10,8 @@ license: Public Domain
 */
 
 .notification-favourite .status,
-.notification-reblog .status {
+.notification-reblog .status,
+.notification-poll .status{
     max-height: 4em;
     overflow: hidden;
 }
