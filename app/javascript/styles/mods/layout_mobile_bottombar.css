@@ -21,7 +21,7 @@ margin: 0;
 .columns-area {padding: 0}
 .getting-started__trends, .getting-started__wrapper, .search {margin: 0}
   
-.floating-action-button {margin-bottom: 50px}
+.floating-action-button, .column .scrollable > div:last-child {margin-bottom: 50px}
 .react-swipeable-view-container {height: calc(100% - 50px)}
 .react-swipeable-view-container .columns-area {height: 100% !important}
 

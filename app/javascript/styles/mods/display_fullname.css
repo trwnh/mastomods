@@ -8,4 +8,4 @@ Always show full name and handle:
 author: trwnh
 license: Public Domain
 */
-.display-name {overflow: visible; white-space: normal;}
+.display-name {overflow: visible; white-space: normal; word-wrap: break-word}
