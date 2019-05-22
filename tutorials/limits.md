@@ -18,9 +18,8 @@ Make sure to recompile assets after making these edits for your changes to take 
 
 1. Edit `app/models/account.rb`
 2. On line #78, change `validates :note, note_length: { maximum: 500 }` to your desired maximum
-
-1. Edit `app/views/settings/profiles/show.html.haml`
-2. On line #10, change `input_html: { maxlength: 500 }` to your desired maximum
+3. Edit `app/views/settings/profiles/show.html.haml`
+4. On line #10, change `input_html: { maxlength: 500 }` to your desired maximum
 
 ### How to add more profile fields
 
