@@ -26,4 +26,6 @@ source: https://userstyles.org/styles/167207 [in part]
     width: 100% !important;
     height: 100% !important;
     max-height: 100% !important;
+    inset: 0 !important;
+    margin-bottom: 4px;
 }
