@@ -8,7 +8,9 @@ source: https://userstyles.org/styles/151233
 */
 
 .notification__favourite-icon-wrapper .star-icon,
-.star-icon.active
-{color: crimson;}
+.star-icon.active,
+.star-icon:hover,
+.star-icon:active
+{color: crimson !important;}
 
-.fa-star:before {content: "❤";}
+.fa-star:before {content: "";}
