@@ -116,10 +116,12 @@ accented links
 
 /* status links */
     .status__content a,
+        .status__content a.unhandled-link
     .getting-started a,
         .getting-started p a,
         .getting-started__footer a,
     .reply-indicator__content a,
+        .reply-indicator__content a.unhandled-link,
         .reply-indicator__cancel .icon-button.inverted:hover,
     .status__content__read-more-button,
     .icon-button.active,
