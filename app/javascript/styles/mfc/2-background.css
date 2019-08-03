@@ -120,6 +120,7 @@ override for muted text
     .navigation-bar,
     .getting-started,
         .getting-started p,
+        .getting-started__footer p,
     .column-subheading,
     .account__section-headline a,
     .status-direct .icon-button,
