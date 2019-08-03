@@ -18,7 +18,7 @@
 ::-webkit-scrollbar-thumb {background: rgba(255,255,255,0.4)}
 
 /* recolor scrollbars in firefox */
-.scrollable, .report-modal__statuses {scrollbar-color: var(--bg) var(--bgPage);}
+html, .scrollable, .report-modal__statuses {scrollbar-color: var(--bg) var(--bgPage);}
 
 /* transparent drawer / gs columns */
 .getting-started,
