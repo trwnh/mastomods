@@ -6,3 +6,5 @@ license: Public Domain
 */
 .account__header__extra__links a:not(:first-child) strong
 {display: none}
+.details-counters .counter:not(:first-child) .counter-number
+{visibility: hidden}
