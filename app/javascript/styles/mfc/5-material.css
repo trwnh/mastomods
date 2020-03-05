@@ -38,6 +38,10 @@ material design overrides
 .load-more
     {color: var(--textPageMuted)}
 
+/* borders */
+.account__section-headline, .notification__filter-bar
+{border-color: transparent}
+
 /* triangle tab indicator */
 .account__section-headline a.active:after,
 .account__section-headline a.active:before,
