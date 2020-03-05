@@ -4,6 +4,8 @@
 * Due to the extensive level of recolors, some elements will need slight fixes.
 * This section contains any overrides that are mostly necessary to beautify or
 * otherwise make elements look like they belong in the new palette.
+
+TODO: deprecate this and merge into the fg/bg/highlights where applicable?
 *------------------------------------------------------------------------------*/
 
 /* remove registration form gradient */
