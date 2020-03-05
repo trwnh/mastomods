@@ -2,10 +2,6 @@
 * BACKGROUND COLOR PALETTE =====================================================
 ------------------------------------------------------------------------------*/
 
-/* scrollbar fix */
-
-html {scrollbar-color: var(--textPageMuted) var(--bgPage)}
-
 /*----------------------
 base background and text
 ----------------------*/
