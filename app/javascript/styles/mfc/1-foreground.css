@@ -225,7 +225,8 @@ override for muted text
 .account__header__fields dl,
 .account__header__bio .account__header__fields,
 .account,
-.directory__card__extra .account__header__content
+.directory__card__extra .account__header__content,
+.account__section-headline, .notification__filter-bar
 {border-color: var(--textMuted)}
 
 .account__section-headline a.active::after, .account__section-headline button.active::after, .notification__filter-bar a.active::after, .notification__filter-bar button.active::after
