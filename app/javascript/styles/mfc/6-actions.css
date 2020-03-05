@@ -34,6 +34,10 @@
     .detailed-status__action-bar .icon-button.active
 {filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.6))}
 
+/* remove bg color on hover and active states*/
+.icon-button:active, .icon-button:focus, .icon-button:hover
+{background-color: transparent}
+
 /* replies and follows */
 .status__action-bar-button.icon-button:nth-child(1):hover,
 .status__action-bar-button.icon-button:nth-child(1):active,
