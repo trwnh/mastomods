@@ -1,6 +1,6 @@
 /*------------------------------------------------------------------------------
 * HIGHLIGHTS COLOR PALETTE =====================================================
-*------------------------------------------------------------------------------/
+------------------------------------------------------------------------------*/
 
 /*------------------
 headers and warnings
@@ -20,6 +20,7 @@ headers and warnings
     .compose-form__warning,
         .compose-form .compose-form__warning,
     .react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track,
+    .column-link__badge,
 /* settings pages */
     .list-editor h4,
     .admin-wrapper .content h4,
@@ -81,6 +82,7 @@ accented buttons
     .reply-indicator__content .status__content__spoiler-link:hover,
         .status__content .status__content__spoiler-link:hover,
     .load-more:hover,
+    .conversation__unread,
 /* modals */
     .confirmation-modal__action-bar .confirmation-modal__cancel-button:active,
         .confirmation-modal__action-bar .confirmation-modal__cancel-button:focus,
@@ -95,6 +97,7 @@ accented buttons
         .mute-modal__action-bar .mute-modal__cancel-button:focus,
         .mute-modal__action-bar .mute-modal__cancel-button:hover,
     .upload-progress__tracker,
+    .radio-button__input.checked,
 /* public pages */
     .public-layout .header .nav-button:hover,
     .button.button-secondary:hover,
@@ -128,6 +131,7 @@ accented links
         .icon-button:focus,
         .icon-button:hover,
     .search__icon .fa:hover,
+    .account__header__bio .account__header__fields a,
     .notification-follow .account .icon-button:hover,
     .notification__message .fa,
     .notification__display-name:hover,
@@ -175,3 +179,8 @@ accented links
 {
     color: var(--accent)
 }
+
+/* border fix */
+.react-toggle--checked .react-toggle-thumb,
+.radio-button__input.checked
+{border-color: var(--accent)}
