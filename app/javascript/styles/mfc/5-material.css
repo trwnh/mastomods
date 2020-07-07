@@ -4,7 +4,9 @@ material design overrides
 
 /* turn statuses into cards */
 .drawer__inner darker {filter: drop-shadow(0 0 2px black)}
-.status {
+.status,
+.conversation,
+.account-authorize__wrapper {
     box-shadow: 0px 0px 2px black;
     background: var(--bg);
     margin: 8px;

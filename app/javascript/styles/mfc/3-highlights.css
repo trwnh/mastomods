@@ -24,6 +24,7 @@ headers and warnings
         .compose-form .compose-form__warning,
     .react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track,
     .column-link__badge,
+    .column-link--transparent.active,
 /* settings pages */
     .list-editor h4,
     .admin-wrapper .content h4,
@@ -35,7 +36,8 @@ headers and warnings
         .simple_form .warning,
         .table-form .warning,
     .pagination .current,
-    .account-role
+    .account-role,
+    .batch-table__toolbar
 {
     background: var(--bgHead);
     color: var(--textHead)
@@ -110,7 +112,10 @@ accented buttons
     .video-player__seek__buffer,
     .video-player__seek__progress,
     .video-player__volume__current,
-    .video-player__volume__handle
+    .video-player__volume__handle,
+/* announcements */
+    .icon-with-badge__badge,
+    .announcements__item__unread
 {
     background: var(--accent);
     color: var(--accentText);
@@ -122,7 +127,7 @@ accented links
 
 /* status links */
     .status__content a,
-        .status__content a.unhandled-link
+        .status__content a.unhandled-link,
     .getting-started a,
         .getting-started p a,
         .getting-started__footer a,
@@ -149,6 +154,7 @@ accented links
     .column-header__setting-btn:hover,
         .column-inline-form .icon-button:hover,
     .empty-column-indicator a, .error-column a,
+    .timeline-hint a,
 /* post options */
     .compose-form .text-icon-button:hover,
         .text-icon-button.active,
@@ -177,6 +183,8 @@ accented links
     .pagination a:hover,
         .pagination .newer:hover,
         .pagination .older:hover,
+    .filters .filter-subset a.selected,
+    .simple_form .hint a,
 /* mobile elements */
     .tabs-bar__link.active
 {
@@ -185,5 +193,11 @@ accented links
 
 /* border fix */
 .react-toggle--checked .react-toggle-thumb,
-.radio-button__input.checked
+.radio-button__input.checked,
+.icon-with-badge__badge,
+.filters .filter-subset a.selected
 {border-color: var(--accent)}
+
+/* trends fix */
+.trends__item__sparkline path:first-child {fill: transparent !important}
+.trends__item__sparkline path:last-child {stroke: var(--accent) !important}
