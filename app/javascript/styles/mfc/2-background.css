@@ -24,6 +24,7 @@ body.app-body,
 .timeline-hint,
 .introduction,
 .account__header__account-note textarea:focus,
+.flex-spacer, .getting-started, .getting-started__wrapper,
 /* DMs */
 .status.status-direct,
     .status.status-direct:not(.read),
