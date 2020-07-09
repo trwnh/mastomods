@@ -44,7 +44,8 @@ material design overrides
 /* borders */
 .account__section-headline, .notification__filter-bar,
 .account--panel, .account__header__bar, .account__header__bio .account__header__fields, .status, .detailed-status__action-bar, .account__header__fields dl, .account__header__bio .account__header__fields, .account, .directory__card__extra .account__header__content, .account__section-headline, .notification__filter-bar,
-.conversation
+.conversation,
+.account__header__account-note
 {border-color: transparent}
 
 /* triangle tab indicator */

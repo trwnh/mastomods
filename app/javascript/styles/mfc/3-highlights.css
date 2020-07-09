@@ -108,6 +108,13 @@ accented buttons
     .button.button-secondary:hover,
 /* settings pages */
     .pagination .page.current:hover,
+    .introduction__dot.active,
+    .dashboard__counters > div > a:hover,
+        .dashboard__counters > div > a:focus,
+        .dashboard__counters > div > a:active,
+        .dashboard__counters > div > a:hover .dashboard__counters__label,
+        .dashboard__counters > div > a:focus .dashboard__counters__label,
+        .dashboard__counters > div > a:active .dashboard__counters__label,
 /* video player ui */
     .video-player__seek__buffer,
     .video-player__seek__progress,
@@ -131,6 +138,7 @@ accented links
     .getting-started a,
         .getting-started p a,
         .getting-started__footer a,
+        .getting-started__footer p a,
     .reply-indicator__content a,
         .reply-indicator__content a.unhandled-link,
         .reply-indicator__cancel .icon-button.inverted:hover,
@@ -195,7 +203,8 @@ accented links
 .react-toggle--checked .react-toggle-thumb,
 .radio-button__input.checked,
 .icon-with-badge__badge,
-.filters .filter-subset a.selected
+.filters .filter-subset a.selected,
+.introduction__dot
 {border-color: var(--accent)}
 
 /* trends fix */

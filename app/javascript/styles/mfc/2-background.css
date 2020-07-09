@@ -22,6 +22,8 @@ body.app-body,
 .notification__filter-bar,
     .notification__filter-bar button,
 .timeline-hint,
+.introduction,
+.account__header__account-note textarea:focus,
 /* DMs */
 .status.status-direct,
     .status.status-direct:not(.read),
@@ -81,8 +83,6 @@ body.app-body,
 .status-card__description,
 .button:disabled,
 /* public pages */
-body,
-    body.lighter,
 .button.button-alternative,
     .button.button-alternative-2,
 .landing-page__call-to-action,
@@ -130,6 +130,7 @@ override for muted text
 
 /* de-emphasized elements */
 .navigation-bar,
+.navigation-panel hr,
 .getting-started,
     .getting-started p,
     .getting-started__footer p,
@@ -153,6 +154,8 @@ override for muted text
 .list-editor .search__input::placeholder,
     .list-editor .search__icon .fa,
     .list-editor .search__icon .fa-times-circle,
+/* settings page */
+body .neutral-hint, .admin-wrapper .content .neutral-hint,
 /* public pages */
 .endorsements-widget .display-name__account,
 .public-layout .footer h4,

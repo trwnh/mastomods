@@ -25,6 +25,7 @@ base background and text
 .account__header__bio .account__header__content,
 .account--panel,
 .account__header__bar,
+.account__header__account-note textarea,
 .follow_requests-unlocked_explanation,
 .account-authorize,
 /* new conversations */
@@ -69,6 +70,9 @@ base background and text
     .batch-table__row:nth-child(2n),
     .batch-table__row:hover,
 .column-inline-form label,
+.dashboard__counters > div > div, .dashboard__counters > div > a,
+.log-entry,
+    .log-entry__header,
 /* modals */
 .actions-modal,
     .actions-modal .status,
@@ -151,6 +155,11 @@ override for bold text
 .account__action-bar__tab strong, /* profile counters */
 .conversation__content__names a,
 .conversation--unread .conversation__content__relative-time,
+/* settings page*/
+.dashboard__counters__num, .dashboard__counters__text,
+.log-entry a,
+    .log-entry .username,
+    .log-entry .target,
 /* public pages */
 #new_user .lead strong,
 .landing-page h3,
@@ -179,6 +188,9 @@ override for muted text
     .accounts-table__count small,
     .account__header__tabs__name h1 small,
     .account__header__extra__links a,
+    .account__header__account-note label,
+    .account__header__account-note textarea::placeholder,
+    .account__header__extra__links,
 .detailed-status__meta,
 .status__relative-time,
 .status__action-bar__counter__label,
@@ -209,6 +221,9 @@ a.table-action-link,
     button.table-action-link,
 .status__wrapper--filtered,
 .conversation__content__relative-time,
+/* settings page */
+.dashboard__counters__label,
+.log-entry__timestamp,
 /* public pages */
 .landing-page__short-description h1 small,
     .landing-page__short-description h1 small span,
@@ -238,6 +253,10 @@ color: var(--textMuted)
 .account__section-headline, .notification__filter-bar,
 .actions-modal .dropdown-menu__separator, .actions-modal .status
 {border-color: var(--textMuted)}
+
+.account__header__account-note,
+.announcements-list
+{border-color: transparent}
 
 .account__section-headline a.active::after, .account__section-headline button.active::after, .notification__filter-bar a.active::after, .notification__filter-bar button.active::after
 {border-color: transparent transparent var(--bg)}
