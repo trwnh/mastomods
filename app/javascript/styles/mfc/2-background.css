@@ -83,6 +83,7 @@ body.app-body,
 .status-card__description,
 .button:disabled,
 /* public pages */
+body.theme-default,
 .button.button-alternative,
     .button.button-alternative-2,
 .landing-page__call-to-action,
