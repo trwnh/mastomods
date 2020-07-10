@@ -92,7 +92,8 @@ body.theme-default,
 .public-layout .header .nav-link,
 .public-layout .header .nav-button,
 .nothing-here,
-.brand__tagline
+.brand__tagline,
+.table-of-contents
 {
 background: var(--bgPage);
 color: var(--textPage)
@@ -175,4 +176,6 @@ color: var(--textPageMuted)
 }
 
 /* border color fix */
-.status.status-direct:not(.read) {border-color: var(--textPageMuted)}
+.status.status-direct:not(.read),
+.table-of-contents li a
+{border-color: var(--textPageMuted)}

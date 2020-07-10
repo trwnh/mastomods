@@ -136,7 +136,8 @@ base background and text
 .account__header__fields dd,
 .hero-widget__text,
 .load-more,
-.button.button-secondary
+.button.button-secondary,
+.simple_form__overlay-area__overlay
 {
 background: var(--bg);
 color: var(--text)
