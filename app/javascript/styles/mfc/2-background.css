@@ -88,6 +88,8 @@ body.theme-default,
 .button.button-alternative,
     .button.button-alternative-2,
 .landing-page__call-to-action,
+.public-layout .header,
+.public-layout .header .nav-link,
 .public-layout .header .nav-button,
 .nothing-here,
 .brand__tagline

@@ -105,6 +105,9 @@ accented buttons
     .radio-button__input.checked,
 /* public pages */
     .public-layout .header .nav-button:hover,
+        .public-layout .header .brand:active,
+        .public-layout .header .brand:focus,
+        .public-layout .header .brand:hover,
     .button.button-secondary:hover,
 /* settings pages */
     .pagination .page.current:hover,
