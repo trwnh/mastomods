@@ -207,7 +207,8 @@ accented links
 .radio-button__input.checked,
 .icon-with-badge__badge,
 .filters .filter-subset a.selected,
-.introduction__dot
+.introduction__dot,
+.public-layout .public-account-header__tabs__tabs .counter.active::after
 {border-color: var(--accent)}
 
 /* trends fix */
