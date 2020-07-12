@@ -125,7 +125,8 @@ accented buttons
     .video-player__volume__handle,
 /* announcements */
     .icon-with-badge__badge,
-    .announcements__item__unread
+    .announcements__item__unread,
+    .reactions-bar__item:hover
 {
     background: var(--accent);
     color: var(--accentText);

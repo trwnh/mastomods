@@ -92,6 +92,7 @@ base background and text
 .account__moved-note,
 .introduction__pager,
 .introduction__text p,
+.reactions-bar__item,
 /* profile cards */
 .card__bar,
     .card>a:active .card__bar,
@@ -239,6 +240,9 @@ a.table-action-link,
 {
 color: var(--textMuted)
 }
+
+/* fix announcement reactions */
+.reactions-bar__item__count {color: inherit}
 
 /* fix for conversations font weight */
 .conversation--unread .conversation__content__info {font-weight: 400}
