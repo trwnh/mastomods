@@ -215,3 +215,10 @@ accented links
 /* trends fix */
 .trends__item__sparkline path:first-child {fill: transparent !important}
 .trends__item__sparkline path:last-child {stroke: var(--accent) !important}
+
+/* focus fix */
+.focusable:focus
+{
+  background: transparent;
+  border: 2px solid var(--accent);
+}
