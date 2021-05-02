@@ -95,6 +95,7 @@ accented buttons
     .confirmation-modal__action-bar .mute-modal__cancel-button:active,
         .confirmation-modal__action-bar .mute-modal__cancel-button:focus,
         .confirmation-modal__action-bar .mute-modal__cancel-button:hover,
+    .dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover,
     .mute-modal__action-bar .confirmation-modal__cancel-button:active,
         .mute-modal__action-bar .confirmation-modal__cancel-button:focus,
         .mute-modal__action-bar .confirmation-modal__cancel-button:hover,
