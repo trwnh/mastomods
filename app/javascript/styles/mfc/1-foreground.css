@@ -45,6 +45,8 @@ base background and text
 .compose-form .autosuggest-textarea__textarea, /* post */
 .compose-form .compose-form__modifiers, /* image uploads */
 .compose-form .compose-form__buttons-wrapper, /* buttons */
+.compose-form .autosuggest-textarea__textarea::placeholder,
+.compose-form .spoiler-input__input::placeholder,
 /* settings page */
 .simple_form textarea,
     .simple_form textarea:active,
@@ -81,6 +83,7 @@ base background and text
     .status.light .display-name strong, .status.light .status__content,
 .boost-modal,
 .confirmation-modal,
+.dropdown-menu, .dropdown-menu__item a,
 .mute-modal,
     .block-modal .setting-toggle__label, .mute-modal .setting-toggle__label,
 .report-modal,
