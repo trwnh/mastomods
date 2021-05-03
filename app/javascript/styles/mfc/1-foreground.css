@@ -212,6 +212,8 @@ override for muted text
 .compose-form .icon-button.inverted,
     .compose-form .text-icon-button,
     .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter,
+    .compose-form .autosuggest-textarea__textarea::placeholder,
+    .compose-form .spoiler-input__input::placeholder,
 .upload-progress,
 .search__icon .fa,
     .search__icon .fa-times-circle,
