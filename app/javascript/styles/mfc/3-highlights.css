@@ -4,6 +4,9 @@
 
 /* scrollbar fix */
 html {scrollbar-color: var(--bg) var(--bgPage)}
+::-webkit-scrollbar-thumb {background: var(--bg)}
+::-webkit-scrollbar-thumb:hover {background: var(--accent)}
+::-webkit-scrollbar-track:hover {background: rgba(0,0,0,0.2)}
 
 /*------------------
 headers and warnings
