@@ -23,6 +23,7 @@ body.app-body,
     .notification__filter-bar button,
 .timeline-hint,
 .introduction,
+.account__header__image,
 .account__header__account-note textarea:focus,
 .flex-spacer, .getting-started, .getting-started__wrapper,
 /* DMs */
