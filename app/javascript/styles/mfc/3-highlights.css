@@ -213,7 +213,8 @@ accented links
 .icon-with-badge__badge,
 .filters .filter-subset a.selected,
 .introduction__dot,
-.public-layout .public-account-header__tabs__tabs .counter.active::after
+.public-layout .public-account-header__tabs__tabs .counter.active::after,
+.notification.unread::before, .status__wrapper.unread::before
 {border-color: var(--accent)}
 
 /* trends fix */
