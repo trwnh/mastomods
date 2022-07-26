@@ -76,6 +76,9 @@ body.app-body,
     .regeneration-indicator,
     .empty-column-indicator,
 .report-modal__comment .setting-text,
+.report-dialog-modal .dialog-option .poll__input,
+.report-dialog-modal__textarea,
+.report-dialog-modal .button.button-secondary,
 .introduction__text p code,
 .list-editor .search__input,
 .announcements__item,
@@ -160,6 +163,7 @@ override for muted text
 .list-editor .search__input::placeholder,
     .list-editor .search__icon .fa,
     .list-editor .search__icon .fa-times-circle,
+.report-dialog-modal__textarea::placeholder,
 /* settings page */
 body .neutral-hint, .admin-wrapper .content .neutral-hint,
 /* public pages */
@@ -178,5 +182,6 @@ color: var(--textPageMuted)
 
 /* border color fix */
 .status.status-direct:not(.read),
-.table-of-contents li a
+.table-of-contents li a,
+.report-dialog-modal .button.button-secondary
 {border-color: var(--textPageMuted)}

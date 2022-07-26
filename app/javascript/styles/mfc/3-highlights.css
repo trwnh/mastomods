@@ -107,6 +107,7 @@ accented buttons
         .mute-modal__action-bar .mute-modal__cancel-button:hover,
     .upload-progress__tracker,
     .radio-button__input.checked,
+    .report-dialog-modal .dialog-option .poll__input.active,
 /* public pages */
     .public-layout .header .nav-button:hover,
         .public-layout .header .brand:active,
@@ -185,6 +186,7 @@ accented links
     .list-editor .account .icon-button:hover,
         .list-editor .account .icon-button:active,
         .list-editor .account .icon-button:focus,
+    .report-dialog-modal .status__content a,
 /* public pages */
     .simple_form .input.boolean label a,
     .landing-page__short-description p a,
@@ -214,7 +216,10 @@ accented links
 .filters .filter-subset a.selected,
 .introduction__dot,
 .public-layout .public-account-header__tabs__tabs .counter.active::after,
-.notification.unread::before, .status__wrapper.unread::before
+.notification.unread::before, .status__wrapper.unread::before,
+.report-dialog-modal .dialog-option .poll__input,
+.report-dialog-modal .dialog-option .poll__input.active,
+.report-dialog-modal .dialog-option .poll__input:active, .report-dialog-modal .dialog-option .poll__input:focus, .report-dialog-modal .dialog-option .poll__input:hover
 {border-color: var(--accent)}
 
 /* trends fix */
