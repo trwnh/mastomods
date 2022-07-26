@@ -271,7 +271,8 @@ color: var(--textMuted)
 .account,
 .directory__card__extra .account__header__content,
 .account__section-headline, .notification__filter-bar,
-.actions-modal .dropdown-menu__separator, .actions-modal .status
+.actions-modal .dropdown-menu__separator, .actions-modal .status,
+.report-dialog-modal .poll__option.dialog-option
 {border-color: var(--textMuted)}
 
 .account__header__account-note,
