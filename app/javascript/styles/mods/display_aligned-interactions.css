@@ -1,0 +1,10 @@
+/*
+Instead of equally spacing out icons across the full width of the status,
+align them to the start of the flexbox container.
+
+author: trwnh
+license: Public Domain
+*/
+.status__action-bar {
+	justify-content: start;
+}
