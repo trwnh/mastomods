@@ -64,6 +64,8 @@ body.app-body,
     .admin-wrapper .sidebar ul ul a,
     .admin-wrapper .content h2,
     .admin-wrapper .content h6,
+.simple_form input[type="datetime-local"]::placeholder, .simple_form input[type="email"]::placeholder, .simple_form input[type="number"]::placeholder, .simple_form input[type="password"]::placeholder, .simple_form input[type="text"]::placeholder, .simple_form input[type="url"]::placeholder, .simple_form textarea::placeholder,
+tr.nested-fields > td > .custom_filter_keywords_keyword > input,
 /* modals */
 .boost-modal__action-bar,
     .confirmation-modal__action-bar,
@@ -82,6 +84,10 @@ body.app-body,
 .introduction__text p code,
 .list-editor .search__input,
 .announcements__item,
+.dismissable-banner,
+    .dismissable-banner__message,
+.account-card__header img,
+.emoji-mart-search input,
 /* opengraph previews */
 .status-card__image,
 .status-card__content,
@@ -97,7 +103,14 @@ body.theme-default,
 .public-layout .header .nav-button,
 .nothing-here,
 .brand__tagline,
-.table-of-contents
+.table-of-contents,
+/* about page */
+.about__domain-blocks__domain,
+    .about__domain-blocks__domain:nth-child(2n),
+.about__footer,
+/* account fields*/
+.account__header__bio .account__header__fields,
+.account__header__bio .account__header__fields dd
 {
 background: var(--bgPage);
 color: var(--textPage)
@@ -119,6 +132,7 @@ override for bold text
     .account__section-headline button.active,
     .notification__filter-bar a.active,
     .notification__filter-bar button.active,
+.about__domain-blocks__domain h6,
 /* public pages */
 .information-board__section,
     .information-board__section span:last-child,
@@ -128,7 +142,9 @@ override for bold text
     .pagination .gap,
     .pagination .newer,
     .pagination .older,
-    .pagination a
+    .pagination a,
+/*account fields*/
+.account__header__bio .account__header__fields dt
 {
 color: var(--textPageBold)
 }
@@ -164,6 +180,7 @@ override for muted text
     .list-editor .search__icon .fa,
     .list-editor .search__icon .fa-times-circle,
 .report-dialog-modal__textarea::placeholder,
+.link-footer p,
 /* settings page */
 body .neutral-hint, .admin-wrapper .content .neutral-hint,
 /* public pages */
@@ -185,3 +202,17 @@ color: var(--textPageMuted)
 .table-of-contents li a,
 .report-dialog-modal .button.button-secondary
 {border-color: var(--textPageMuted)}
+
+.dismissable-banner,
+.about__domain-blocks,
+.emoji-mart-search input,
+.compose-panel hr, .navigation-panel hr
+{border-color: transparent}
+
+.about__domain-blocks__domain,
+.account__header__bio .account__header__fields dl
+{border-color: var(--bg)}
+
+/* account fields */
+.account__header__bio .account__header__fields .verified a, .account__header__bio .account__header__fields .verified dd, .account__header__bio .account__header__fields .verified dt
+{background: transparent}

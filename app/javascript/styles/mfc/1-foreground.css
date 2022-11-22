@@ -47,6 +47,13 @@ base background and text
 .compose-form .compose-form__buttons-wrapper, /* buttons */
 .compose-form .autosuggest-textarea__textarea::placeholder,
 .compose-form .spoiler-input__input::placeholder,
+.compose-form__poll-wrapper .button.button-secondary,
+.poll__option input[type="text"],
+.privacy-dropdown__option,
+.emoji-mart-search,
+.emoji-mart-scroll,
+.language-dropdown__dropdown,
+.language-dropdown__dropdown__results__item,
 /* settings page */
 .simple_form textarea,
     .simple_form textarea:active,
@@ -76,6 +83,13 @@ base background and text
 .dashboard__counters > div > div, .dashboard__counters > div > a,
 .log-entry,
     .log-entry__header,
+.admin-wrapper .content .directory__tag h4,
+.simple_form select,
+.announcements-list__item,
+.filters-list__item,
+.permissions-list__item,
+.permissions-list__item__text__type,
+.applications-list__item, .filters-list__item,
 /* modals */
 .actions-modal,
     .actions-modal .status,
@@ -100,6 +114,8 @@ base background and text
 .introduction__pager,
 .introduction__text p,
 .reactions-bar__item,
+.emoji-mart-category-label span,
+.emoji-picker-dropdown__menu,
 /* profile cards */
 .card__bar,
     .card>a:active .card__bar,
@@ -109,6 +125,7 @@ base background and text
     .directory__card__extra,
     .accounts-table__count,
     .directory__card__img,
+.scrollable .account-card,
 /* public pages */
 #new_user .lead,
 .landing .hero-widget__footer,
@@ -145,7 +162,14 @@ base background and text
 .hero-widget__text,
 .load-more,
 .button.button-secondary,
-.simple_form__overlay-area__overlay
+.simple_form__overlay-area__overlay,
+/* about panel */
+.about__meta,
+.about__section,
+.about__section__title,
+.about__section__body,
+.prose,
+.about__header p
 {
 background: var(--bg);
 color: var(--text)
@@ -167,11 +191,15 @@ override for bold text
 .conversation__content__names a,
 .conversation--unread .conversation__content__relative-time,
 .report-dialog-modal .poll__option.dialog-option > .poll__option__text strong,
+.account-card__counters__item,
+.privacy-dropdown__option__content strong,
 /* settings page*/
 .dashboard__counters__num, .dashboard__counters__text,
 .log-entry a,
     .log-entry .username,
     .log-entry .target,
+.announcements-list__item__title,
+.filters-list__item__title,
 /* public pages */
 #new_user .lead strong,
 .landing-page h3,
@@ -219,6 +247,8 @@ override for muted text
     .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter,
     .compose-form .autosuggest-textarea__textarea::placeholder,
     .compose-form .spoiler-input__input::placeholder,
+    .privacy-dropdown__option__content,
+    .language-dropdown__dropdown__results__item__common-name,
 .upload-progress,
 .search__icon .fa,
     .search__icon .fa-times-circle,
@@ -236,9 +266,13 @@ a.table-action-link,
 .status__wrapper--filtered,
 .conversation__content__relative-time,
 .status-check-box__status .detailed-status__display-name,
+.account-card__counters__item small,
+.about__meta h4,
 /* settings page */
 .dashboard__counters__label,
 .log-entry__timestamp,
+.announcements-list__item__meta,
+.filters-list__item__meta,
 /* public pages */
 .landing-page__short-description h1 small,
     .landing-page__short-description h1 small span,
@@ -272,13 +306,33 @@ color: var(--textMuted)
 .directory__card__extra .account__header__content,
 .account__section-headline, .notification__filter-bar,
 .actions-modal .dropdown-menu__separator, .actions-modal .status,
-.report-dialog-modal .poll__option.dialog-option
+.report-dialog-modal .poll__option.dialog-option,
+.poll__option input[type="text"],
+.poll__input,
+.compose-form__poll-wrapper,
+.compose-form__poll-wrapper .poll__footer
 {border-color: var(--textMuted)}
+
+.table td, .table th
+{border-color: var(--bgPage)}
 
 .account__header__account-note,
 .announcements-list,
-.report-dialog-modal__container
+.report-dialog-modal__container,
+.about__meta__divider,
+.about__section__body,
+.compose-form__poll-wrapper .button.button-secondary,
+.announcements-list__item,
+.filters-list__item,
+.table > thead > tr > th,
+.applications-list__item, .filters-list__item,
+.permissions-list__item
 {border-color: transparent}
 
 .account__section-headline a.active::after, .account__section-headline button.active::after, .notification__filter-bar a.active::after, .notification__filter-bar button.active::after
 {border-color: transparent transparent var(--bg)}
+
+/* fix profile directory card truncation */
+.scrollable .account-card__bio::after,
+.account-card__bio::after
+{background: none}
