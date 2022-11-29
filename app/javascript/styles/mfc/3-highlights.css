@@ -266,3 +266,7 @@ accented links
   background: transparent;
   border: 2px solid var(--accent);
 }
+
+/* poll vote bar */
+.poll__chart.leading
+{background: var(--accent)}

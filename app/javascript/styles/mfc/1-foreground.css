@@ -268,6 +268,8 @@ a.table-action-link,
 .status-check-box__status .detailed-status__display-name,
 .account-card__counters__item small,
 .about__meta h4,
+.poll__link,
+.poll__footer,
 /* settings page */
 .dashboard__counters__label,
 .log-entry__timestamp,
@@ -336,3 +338,7 @@ color: var(--textMuted)
 .scrollable .account-card__bio::after,
 .account-card__bio::after
 {background: none}
+
+/* poll vote bars */
+.poll__chart
+{background: var(--textMuted)}
