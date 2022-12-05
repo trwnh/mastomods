@@ -97,7 +97,7 @@ base background and text
     .status.light .display-name strong, .status.light .status__content,
 .boost-modal,
 .confirmation-modal,
-.dropdown-menu, .dropdown-menu__item a,
+.dropdown-menu, .dropdown-menu__item a, .dropdown-menu__item button,
 .mute-modal,
     .block-modal .setting-toggle__label, .mute-modal .setting-toggle__label,
 .report-modal,
@@ -169,7 +169,10 @@ base background and text
 .about__section__title,
 .about__section__body,
 .prose,
-.about__header p
+.about__header p,
+/* 4.0 mobile layout */
+.ui__header,
+.columns-area__panels__pane--navigational .navigation-panel
 {
 background: var(--bg);
 color: var(--text)
@@ -312,10 +315,14 @@ color: var(--textMuted)
 .poll__option input[type="text"],
 .poll__input,
 .compose-form__poll-wrapper,
-.compose-form__poll-wrapper .poll__footer
+.compose-form__poll-wrapper .poll__footer,
+.dropdown-menu__item.edited-timestamp__history__item
 {border-color: var(--textMuted)}
 
-.table td, .table th
+.table td, .table th,
+.ui__header,
+.columns-area__panels__pane--navigational .navigation-panel,
+.dropdown-menu__container__header
 {border-color: var(--bgPage)}
 
 .account__header__account-note,

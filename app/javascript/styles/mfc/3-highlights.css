@@ -32,6 +32,8 @@ headers and warnings
 .emoji-mart,
 .emoji-mart-anchors,
 .emoji-mart-anchor-icon,
+.dropdown-menu__container__header,
+.dropdown-menu,
 /* settings pages */
 .list-editor h4,
 .admin-wrapper .content h4,
@@ -255,6 +257,9 @@ accented links
 
 .emoji-mart-bar
 {border-color: transparent}
+
+.dropdown-menu__arrow.top
+{border-top-color: var(--bgHead)}
 
 /* trends fix */
 .trends__item__sparkline path:first-child {fill: transparent !important}
