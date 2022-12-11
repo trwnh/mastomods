@@ -98,6 +98,8 @@ base background and text
 .boost-modal,
 .confirmation-modal,
 .dropdown-menu, .dropdown-menu__item a, .dropdown-menu__item button,
+.compare-history-modal,
+    .compare-history-modal .status__content,
 .mute-modal,
     .block-modal .setting-toggle__label, .mute-modal .setting-toggle__label,
 .report-modal,

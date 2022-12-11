@@ -34,6 +34,7 @@ headers and warnings
 .emoji-mart-anchor-icon,
 .dropdown-menu__container__header,
 .dropdown-menu,
+.compare-history-modal .report-modal__target,
 /* settings pages */
 .list-editor h4,
 .admin-wrapper .content h4,
@@ -275,3 +276,7 @@ accented links
 /* poll vote bar */
 .poll__chart.leading
 {background: var(--accent)}
+
+/* edit history */
+.compare-history-modal .report-modal__target
+{border-color: var(--bgHead)}
