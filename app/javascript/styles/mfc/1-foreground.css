@@ -112,6 +112,7 @@ base background and text
 .list-editor,
     .list-editor .drawer__inner,
     .list-editor .drawer__inner.backdrop,
+    .list-adder__lists,
 .account__moved-note,
 .introduction__pager,
 .introduction__text p,
@@ -324,7 +325,8 @@ color: var(--textMuted)
 .table td, .table th,
 .ui__header,
 .columns-area__panels__pane--navigational .navigation-panel,
-.dropdown-menu__container__header
+.dropdown-menu__container__header,
+.list-adder .list
 {border-color: var(--bgPage)}
 
 .account__header__account-note,
