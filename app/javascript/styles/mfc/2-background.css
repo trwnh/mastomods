@@ -32,6 +32,7 @@ body.app-body,
     .focusable:focus .status.status-direct,
     .status-direct .status__content,
     .notification-favourite .status.status-direct,
+    .status__wrapper-direct,
 /* column preferences */
 .column-settings__section,
     .column-header__collapsible,
