@@ -35,7 +35,7 @@ body.app-body,
     .status__wrapper-direct,
     .detailed-status__wrapper-direct .detailed-status,
     .detailed-status__wrapper-direct .detailed-status__action-bar,
-    .detailed-status .status__content,
+    .detailed-status__wrapper-direct .status__content,
 /* column preferences */
 .column-settings__section,
     .column-header__collapsible,
