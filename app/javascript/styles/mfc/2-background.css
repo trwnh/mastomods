@@ -33,6 +33,9 @@ body.app-body,
     .status-direct .status__content,
     .notification-favourite .status.status-direct,
     .status__wrapper-direct,
+    .detailed-status__wrapper-direct .detailed-status,
+    .detailed-status__wrapper-direct .detailed-status__action-bar,
+    .detailed-status .status__content,
 /* column preferences */
 .column-settings__section,
     .column-header__collapsible,
@@ -207,7 +210,8 @@ color: var(--textPageMuted)
 .dismissable-banner,
 .about__domain-blocks,
 .emoji-mart-search input,
-.compose-panel hr, .navigation-panel hr
+.compose-panel hr, .navigation-panel hr,
+.detailed-status
 {border-color: transparent}
 
 .about__domain-blocks__domain,
