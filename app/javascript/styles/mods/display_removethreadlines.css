@@ -1,0 +1,9 @@
+/*
+Remove thread lines.
+
+author: trwnh
+license: Public Domain
+*/
+
+.status__line--full::before {background: none}
+.status__line {border: none}
