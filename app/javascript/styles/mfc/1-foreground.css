@@ -12,8 +12,6 @@ base background and text
     .status__content,
 .detailed-status,
     .detailed-status__action-bar,
-    .focusable:focus .detailed-status,
-    .focusable:focus .detailed-status__action-bar,
 .setting-text,
     .setting-text:active,
     .setting-text:focus,
@@ -339,7 +337,8 @@ color: var(--textMuted)
 .filters-list__item,
 .table > thead > tr > th,
 .applications-list__item, .filters-list__item,
-.permissions-list__item
+.permissions-list__item,
+.detailed-status__wrapper-direct .detailed-status__action-bar
 {border-color: transparent}
 
 .account__section-headline a.active::after, .account__section-headline button.active::after, .notification__filter-bar a.active::after, .notification__filter-bar button.active::after
@@ -353,3 +352,8 @@ color: var(--textMuted)
 /* poll vote bars */
 .poll__chart
 {background: var(--textMuted)}
+
+/* fix focusing on status overriding theme */
+.focusable:focus .detailed-status,
+.focusable:focus .detailed-status__action-bar
+{background: none}
