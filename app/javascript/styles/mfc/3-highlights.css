@@ -101,6 +101,7 @@ accented buttons
 .load-more:hover,
 .conversation__unread,
 .button.logo-button,
+.account__section-headline a.active::before, .account__section-headline button.active::before, .notification__filter-bar a.active::before, .notification__filter-bar button.active::before,
 /* modals */
 .confirmation-modal__action-bar .confirmation-modal__cancel-button:active,
     .confirmation-modal__action-bar .confirmation-modal__cancel-button:focus,
@@ -206,6 +207,7 @@ accented links
     .account__action-bar-dropdown .icon-button:hover,
     .account__section-headline a:hover,
 .compose-form .compose-form__warning a,
+.dropdown-button,
 /* modals */
 .list-editor .account .icon-button:hover,
     .list-editor .account .icon-button:active,
@@ -253,7 +255,8 @@ accented links
 .report-dialog-modal .dialog-option .poll__input:active,
 .report-dialog-modal .dialog-option .poll__input:focus,
 .report-dialog-modal .dialog-option .poll__input:hover,
-.setting-text:focus
+.setting-text:focus,
+.dropdown-button
 {border-color: var(--accent)}
 
 .emoji-mart-bar
