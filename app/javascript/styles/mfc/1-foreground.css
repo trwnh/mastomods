@@ -52,6 +52,7 @@ base background and text
 .emoji-mart-scroll,
 .language-dropdown__dropdown,
 .language-dropdown__dropdown__results__item,
+.compose-form__highlightable,
 /* settings page */
 .simple_form textarea,
     .simple_form textarea:active,
@@ -184,13 +185,13 @@ override for bold text
 --------------------*/
 
 /* primary elements */
-.account__display-name strong,
     .status__display-name strong,
     .detailed-status__display-name strong,
     .card__bar .display-name strong,
     .directory__card__bar .display-name strong,
     .account__header__tabs__name h1,
     .account__header__extra__links a strong,
+    .status__display-name .display-name strong,
 .account__action-bar__tab strong, /* profile counters */
 .conversation__content__names a,
 .conversation--unread .conversation__content__relative-time,
@@ -215,7 +216,8 @@ override for bold text
 .rich-formatting h3,
     .rich-formatting h4,
 .public-layout .public-account-header__tabs__tabs .counter .counter-number,
-.account__header__fields dt
+.account__header__fields dt,
+.hashtag-header__header h1
 {
 color: var(--textBold)
 }
@@ -225,8 +227,7 @@ override for muted text
 ---------------------*/
 
 /* secondary elements */
-.display-name__account,
-    .account .account__display-name,
+.account .account__display-name,
     .card__bar .display-name span,
     .directory__card__bar .display-name span,
     .accounts-table__count small,
@@ -287,7 +288,10 @@ a.table-action-link,
     .public-layout .public-account-bio__extra,
     .public-layout .public-account-header__tabs__tabs .counter,
 .load-more,
-.account__disclaimer
+.account__disclaimer,
+.hashtag-header,
+.hashtag-bar,
+.character-counter
 {
 color: var(--textMuted)
 }
@@ -338,7 +342,9 @@ color: var(--textMuted)
 .table > thead > tr > th,
 .applications-list__item, .filters-list__item,
 .permissions-list__item,
-.detailed-status__wrapper-direct .detailed-status__action-bar
+.detailed-status__wrapper-direct .detailed-status__action-bar,
+.compose-form__highlightable,
+.search__input
 {border-color: transparent}
 
 .account__section-headline a.active::after, .account__section-headline button.active::after, .notification__filter-bar a.active::after, .notification__filter-bar button.active::after
