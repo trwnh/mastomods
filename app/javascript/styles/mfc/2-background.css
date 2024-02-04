@@ -137,6 +137,7 @@ override for bold text
     .notification__filter-bar a.active,
     .notification__filter-bar button.active,
 .about__domain-blocks__domain h6,
+.account__display-name .display-name strong,
 /* public pages */
 .information-board__section,
     .information-board__section span:last-child,
@@ -165,6 +166,7 @@ override for muted text
     .getting-started__footer p,
 .column-subheading,
 .account__section-headline a,
+.display-name__account,
 .status-direct .icon-button,
     .status-direct .display-name,
     .status-direct .status__relative-time,
