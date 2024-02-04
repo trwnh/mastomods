@@ -24,7 +24,6 @@ material design overrides
 .activity-stream .entry
     {background: none !important}
 .account-timeline__header,
-.account,
 .conversation
     {background: var(--bg)}
 .notification .account,
@@ -35,12 +34,14 @@ material design overrides
 .status__prepend .status__display-name strong,
 .keyboard-shortcuts
     {color: var(--textPage) !important}
-.notification-follow .display-name__html
+.notification-follow .display-name__html,
+.hashtag-header__header h1
     {color: var(--textPageBold)}
 .notification-follow .display-name__account,
 .notification-follow .account .icon-button,
 .status__wrapper--filtered,
-.load-more
+.load-more,
+.hashtag-header
     {color: var(--textPageMuted)}
 
 /* borders */
